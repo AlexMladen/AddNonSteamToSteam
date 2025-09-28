@@ -1,3 +1,6 @@
+<img width="840" height="518" alt="image" src="https://github.com/user-attachments/assets/b61ac34e-e5d5-45f8-bd6d-4e1c370c2384" />
+
+
 How to use:
 
 You have to have the game's shortcut (e.g. on your desktop).
