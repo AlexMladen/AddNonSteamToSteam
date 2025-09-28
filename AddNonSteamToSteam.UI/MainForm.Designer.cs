@@ -45,14 +45,13 @@
             btnClose = new Button();
             rbUri = new RadioButton();
             rbExe = new RadioButton();
-            groupBox1 = new GroupBox();
             titleBar.SuspendLayout();
-            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Location = new Point(31, 155);
             label1.Name = "label1";
             label1.Size = new Size(80, 15);
@@ -70,6 +69,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Location = new Point(31, 350);
             label2.Name = "label2";
             label2.Size = new Size(113, 15);
@@ -87,6 +87,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Location = new Point(31, 278);
             label3.Name = "label3";
             label3.Size = new Size(53, 15);
@@ -104,6 +105,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
             label4.Location = new Point(31, 220);
             label4.Name = "label4";
             label4.Size = new Size(28, 15);
@@ -133,6 +135,7 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
             label5.Location = new Point(31, 412);
             label5.Name = "label5";
             label5.Size = new Size(75, 15);
@@ -195,7 +198,7 @@
             // 
             rbUri.Appearance = Appearance.Button;
             rbUri.Checked = true;
-            rbUri.Location = new Point(71, 22);
+            rbUri.Location = new Point(63, 76);
             rbUri.Name = "rbUri";
             rbUri.Padding = new Padding(5, 0, 0, 0);
             rbUri.Size = new Size(160, 40);
@@ -207,7 +210,7 @@
             // rbExe
             // 
             rbExe.Appearance = Appearance.Button;
-            rbExe.Location = new Point(248, 22);
+            rbExe.Location = new Point(245, 76);
             rbExe.Name = "rbExe";
             rbExe.Padding = new Padding(10, 0, 0, 0);
             rbExe.Size = new Size(120, 40);
@@ -215,25 +218,14 @@
             rbExe.Text = "Launch via EXE";
             rbExe.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
-            // 
-            groupBox1.BackColor = SystemColors.Window;
-            groupBox1.Controls.Add(rbExe);
-            groupBox1.Controls.Add(rbUri);
-            groupBox1.FlatStyle = FlatStyle.Flat;
-            groupBox1.Location = new Point(31, 56);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(431, 80);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Launch via Launcher or EXE?";
-            // 
             // MainForm
             // 
             AcceptButton = btnAddUpdate;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 479);
+            Controls.Add(rbUri);
+            Controls.Add(rbExe);
             Controls.Add(titleBar);
             Controls.Add(btnAddUpdate);
             Controls.Add(txtSteamAppId);
@@ -247,12 +239,10 @@
             Controls.Add(label2);
             Controls.Add(txtDisplayName);
             Controls.Add(label1);
-            Controls.Add(groupBox1);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "AddNonSteamToSteam";
             titleBar.ResumeLayout(false);
-            groupBox1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -275,6 +265,5 @@
         private Button btnClose;
         private RadioButton rbUri;
         private RadioButton rbExe;
-        private GroupBox groupBox1;
     }
 }
