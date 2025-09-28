@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddNonSteamToSteam.UI", "AddNonSteamToSteam.UI\AddNonSteamToSteam.UI.csproj", "{23B6D644-EEF8-C116-6808-4483D07C6792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddNonSteamToSteam.Core", "AddNonSteamToSteam.Core\AddNonSteamToSteam.Core.csproj", "{2D802125-46F7-9FB3-7661-5D323C49E753}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23B6D644-EEF8-C116-6808-4483D07C6792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B6D644-EEF8-C116-6808-4483D07C6792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B6D644-EEF8-C116-6808-4483D07C6792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B6D644-EEF8-C116-6808-4483D07C6792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D802125-46F7-9FB3-7661-5D323C49E753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D802125-46F7-9FB3-7661-5D323C49E753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D802125-46F7-9FB3-7661-5D323C49E753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D802125-46F7-9FB3-7661-5D323C49E753}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9E1EB8C-9171-4536-A893-6624096AA194}
+	EndGlobalSection
+EndGlobal
